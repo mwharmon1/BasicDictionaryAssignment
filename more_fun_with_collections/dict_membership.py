@@ -12,7 +12,9 @@ def in_dict(this_dict, this_value):
     :param this_value: value to search for
     :return: true if found, false if not found
     """
-    pass
+    if this_value in this_dict:
+        return True
+    return False
 
 
 if __name__ == '__main__':
